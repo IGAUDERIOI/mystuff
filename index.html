@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFsul - Responsabilidade Compartilhada</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background: #f4f4f4; font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .card { background: #fff; max-width: 420px; margin: 40px auto; border-radius: 18px; box-shadow: 0 4px 24px rgba(0,0,0,0.10); overflow: hidden; display: flex; flex-direction: column; }
+        .card-header { display: flex; flex-direction: column; align-items: center; padding: 32px 24px 16px 24px; }
+        .logo-img { width: 150px; height: 150px; border-radius: 50%; background: #eee; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 1.7em; color: #333; margin-bottom: 18px; overflow: hidden; }
+        .logo-img img { width: 105%; height: 100%; object-fit: cover; border-radius: 50%; display: block; margin-bottom: 0; }
+        .company-title { font-size: 2em; font-weight: bold; margin-bottom: 6px; }
+        .support { font-size: 1.1em; color: #666; margin-bottom: 10px; }
+        .project-title { font-size: 1.1em; color: #218838; margin-bottom: 10px; }
+        .card-body { padding: 0 24px 24px 24px; flex: 1; display: flex; flex-direction: column; align-items: center; }
+        .concept-title { font-size: 1.2em; font-weight: bold; margin: 18px 0 8px 0; color: #218838; }
+        .concept-text { font-size: 1em; color: #444; text-align: center; margin-bottom: 18px; }
+        .qr-section { display: flex; flex-direction: column; align-items: center; margin: 18px 0; }
+        .qr-code { width: 120px; height: 120px; background: #eee; display: flex; justify-content: center; align-items: center; border-radius: 12px; font-size: 1.1em; color: #333; margin-bottom: 10px; }
+        .qr-desc { font-size: 0.98em; color: #555; text-align: center; }
+        .socials { margin-top: 18px; text-align: center; }
+        .socials-title { font-size: 1em; color: #222; margin-bottom: 6px; }
+        .social-links a { margin: 0 8px; color: #218838; font-size: 1.3em; text-decoration: none; transition: color 0.2s; }
+        .social-links a:hover { color: #145c1b; }
+        .schedule-btn {
+            display: block;
+            width: 100%;
+            max-width: 260px;
+            margin: 28px auto 0 auto;
+            background: #43d17a;
+            color: #fff;
+            text-align: center;
+            padding: 14px 0;
+            border-radius: 8px;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-decoration: none;
+            box-shadow: 0 2px 8px rgba(33,136,56,0.08);
+            transition: background 0.2s;
+        }
+        .schedule-btn:hover {
+            background: #218838;
+        }
+        .card-footer { background: #f7f7f7; padding: 12px 0; text-align: center; font-size: 0.95em; color: #888; }
+        @media print { body { background: #fff; } .card { box-shadow: none; margin: 0; } }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <div class="logo-img">
+                <img src="img/Imagem do WhatsApp de 2025-06-30 à(s) 19.15.22_44f178fb.jpg" alt="Logo TFsul">
+            </div>
+            <div class="company-title">TFsul</div>
+            <div class="support">Com apoio: Senac</div>
+            <div class="project-title">Projeto de Responsabilidade Compartilhada</div>
+        </div>
+        <div class="card-body">
+            <div class="concept-title">O que é Responsabilidade Compartilhada?</div>
+            <div class="concept-text">
+                Responsabilidade compartilhada é o compromisso coletivo de todos os envolvidos em um processo ou projeto, onde cada parte assume seu papel para alcançar um objetivo comum. No ambiente corporativo, isso significa colaboração, transparência e apoio mútuo para garantir resultados sustentáveis e positivos para todos.
+            </div>
+            <div class="qr-section">
+                <div class="qr-code"><i class="fas fa-qrcode"></i></div>
+                <div class="qr-desc">Escaneie o QR code para responder às nossas perguntas e contribuir com o projeto!</div>
+            </div>
+            <div class="socials">
+                <div class="socials-title">Siga a TFsul:</div>
+                <div class="social-links">
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <a href="agendamento.html" class="schedule-btn">Agendar Horário</a>
+        </div>
+        <div class="card-footer">
+            <p>© 2025 TFsul. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>
